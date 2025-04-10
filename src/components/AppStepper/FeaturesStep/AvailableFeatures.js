@@ -61,6 +61,7 @@ const availableFeatures = [
     tooltip: 'stepFeaturesDisplaysTooltip',
     group: [
       'USE_DISPLAY_TM1637',
+      'USE_DISPLAY_SSD1306',
       'USE_DISPLAY_MAX7219',
       'USE_DISPLAY_MODES1TO5',
       'USE_DISPLAY_LCD',
@@ -70,6 +71,7 @@ const availableFeatures = [
       'USE_DISPLAY_EPAPER_42',
       'USE_DISPLAY_RA8876',
       'USE_DISPLAY_SEVENSEG',
+      'USE_DISPLAY_SH1106',
     ],
     include: ['USE_SPI', 'USE_I2C', 'common_displays'],
     exclude: ['lvgl'],
